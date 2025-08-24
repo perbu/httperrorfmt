@@ -6,6 +6,8 @@ A Go package for formatting HTTP errors with content negotiation support.
 
 httperrorfmt provides formatters for HTTP errors that support multiple content types including JSON, HTML, XML, and plain text. It includes automatic content negotiation based on the client's Accept header.
 
+Can be used with [github.com/perbu/httperror](github.com/perbu/httperror).
+
 ## Installation
 
 ```bash
